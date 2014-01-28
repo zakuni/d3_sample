@@ -22,6 +22,7 @@
     "gulp-jade": "~0.4.0"
   },
   "dependencies": {
-    "coffee-script": "~1.6.3"
+    "coffee-script": "~1.6.3",
+    "jade": "~1.1.5"
   }
 }
