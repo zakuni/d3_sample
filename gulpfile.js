@@ -5,7 +5,7 @@ var jade = require('gulp-jade');
 
 gulp.task('jade', function() {
   gulp.src('*.jade')
-    .pipe(jade({pretty: true}))
+    .pipe(jade({pretty: true}).on('error', gutil.log))
     .pipe(gulp.dest('./'))
 }); 
 
