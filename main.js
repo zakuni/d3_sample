@@ -9,7 +9,9 @@
 
   chart = d3.select(".chart").attr("width", width);
 
-  d3.tsv("data.tsv", type, function(error, data) {
+  d3.tsv("data.tsv", function(d) {
+    return type(d);
+  }, function(error, data) {
     var bar;
     x.domain([
       0, d3.max(data, function(d) {
