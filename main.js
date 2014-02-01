@@ -1,7 +1,7 @@
 (function() {
   var chart, height, type, width, x, y;
 
-  width = 900;
+  width = 960;
 
   height = 500;
 

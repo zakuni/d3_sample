@@ -1,4 +1,4 @@
-width = 900
+width = 960
 height = 500
 
 x = 
